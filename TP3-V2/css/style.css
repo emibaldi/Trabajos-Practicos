@@ -1,0 +1,114 @@
+body{
+	font-family: helvetica;
+}
+
+.logo{
+	float: left;
+	padding: 20px 0px;
+	/*position: relative;
+	display: inline-block;*/
+}
+
+nav{
+	float: right;
+	padding: 25px 0px;
+}
+
+li{
+	display: inline;
+}
+
+nav ul li{
+	text-transform: uppercase;
+	font-size: 10px;
+	padding-left: 15px;
+}
+
+nav ul li a span{
+	font-weight: bold;
+}
+
+.container{
+	margin: 0 auto;
+	overflow: auto;
+	width: 960px;
+
+}
+
+.bakgrnd{
+	background-image: url("../assets/indexbanner-bg3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 400px;
+}
+
+.bakgrnd .container article{
+	overflow: auto;
+}
+
+.artPpal h1{
+	font-size: 40px;
+	color: #fff;
+	font-family: Raleway, sans-serif;
+	font-weight: 400;
+	padding: 120px 250px 0px 0px;
+
+}
+
+.artPpal h2{
+	font-size: 18px;
+	color: #fff;
+	font-family: Raleway, sans-serif;
+	line-height: 40px;
+	padding-top: 20px;
+
+}
+
+.artPpal div{
+	float: left;
+	padding-top: 0px;
+	max-width: 460px;
+}
+
+.survey{
+	position: absolute;
+	margin: 100px auto;
+	width: 960px;
+
+
+}
+
+.survey textarea{
+	border-style: solid;
+	border-color: #cccccc;
+	padding: 16px;
+	font-size: 15px;
+	display: inline;
+	width: 860px;
+
+}
+
+.survey textarea .index{
+	width: 860px;
+	float: left;
+	flex: 1;
+
+}
+
+.btnSearch{
+	float: right;
+	background-color: #448AFF;
+	text-transform: uppercase;
+	color: #fff;
+	width: 100px;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 24px;
+	/*background-image*/
+
+
+}
+
+
+
+
